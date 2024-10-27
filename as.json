@@ -1,0 +1,289 @@
+[
+    {
+        "jogo-26.10.2024 19:00": {
+            "time_casa": "Red Bull Bragantino",
+            "time_fora": "Botafogo",
+            "ocorrencias_time_casa": [
+                {
+                    "ocorrencia": "card-ico yellowCard-ico",
+                    "tempo_ocorrencia": "58'",
+                    "detalhes": [
+                        {
+                            "jogador_infrator": "Jadsom",
+                            "cartão": "yellowCard-ico"
+                        }
+                    ]
+                },
+                {
+                    "ocorrencia": "substitution ",
+                    "tempo_ocorrencia": "60'",
+                    "detalhes": [
+                        {
+                            "jogador_in": "Ramires",
+                            "jogador_out": "Gustavinho"
+                        }
+                    ]
+                },
+                {
+                    "ocorrencia": "substitution ",
+                    "tempo_ocorrencia": "61'",
+                    "detalhes": [
+                        {
+                            "jogador_in": "Cavaleiro I.",
+                            "jogador_out": "Jhon Jhon"
+                        }
+                    ]
+                },
+                {
+                    "ocorrencia": "substitution ",
+                    "tempo_ocorrencia": "61'",
+                    "detalhes": [
+                        {
+                            "jogador_in": "Raul",
+                            "jogador_out": "Matheus Fernandes"
+                        }
+                    ]
+                },
+                {
+                    "ocorrencia": "substitution ",
+                    "tempo_ocorrencia": "70'",
+                    "detalhes": [
+                        {
+                            "jogador_in": "Vinicinho",
+                            "jogador_out": "Eduardo"
+                        }
+                    ]
+                },
+                {
+                    "ocorrencia": "substitution ",
+                    "tempo_ocorrencia": "76'",
+                    "detalhes": [
+                        {
+                            "jogador_in": "Luan Cândido",
+                            "jogador_out": "Juninho Capixaba"
+                        }
+                    ]
+                }
+            ],
+            "ocorrencias_time_fora": [
+                {
+                    "ocorrencia": "substitution ",
+                    "tempo_ocorrencia": "64'",
+                    "detalhes": [
+                        {
+                            "jogador_in": "Carlos Eduardo",
+                            "jogador_out": "Savarino"
+                        }
+                    ]
+                },
+                {
+                    "ocorrencia": "substitution ",
+                    "tempo_ocorrencia": "70'",
+                    "detalhes": [
+                        {
+                            "jogador_in": "Tiquinho Soares",
+                            "jogador_out": "Igor Jesus"
+                        }
+                    ]
+                },
+                {
+                    "ocorrencia": "substitution ",
+                    "tempo_ocorrencia": "70'",
+                    "detalhes": [
+                        {
+                            "jogador_in": "Matheus Martins",
+                            "jogador_out": "Almada T."
+                        }
+                    ]
+                },
+                {
+                    "ocorrencia": "substitution ",
+                    "tempo_ocorrencia": "85'",
+                    "detalhes": [
+                        {
+                            "jogador_in": "Romero O.",
+                            "jogador_out": "Luiz Henrique"
+                        }
+                    ]
+                },
+                {
+                    "ocorrencia": "substitution ",
+                    "tempo_ocorrencia": "85'",
+                    "detalhes": [
+                        {
+                            "jogador_in": "Mateo Ponte",
+                            "jogador_out": "Vitinho"
+                        }
+                    ]
+                },
+                {
+                    "ocorrencia": "wcl-icon-soccer",
+                    "tempo_ocorrencia": "86'",
+                    "detalhes": [
+                        {
+                            "jogador_gol": "Gregore"
+                        }
+                    ]
+                },
+                {
+                    "ocorrencia": "card-ico yellowCard-ico",
+                    "tempo_ocorrencia": "90+4'",
+                    "detalhes": [
+                        {
+                            "jogador_infrator": "Bastos",
+                            "cartão": "yellowCard-ico"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "jogo-26.10.2024 21:00": {
+            "time_casa": "Criciúma",
+            "time_fora": "São Paulo",
+            "ocorrencias_time_casa": [
+                {
+                    "ocorrencia": "wcl-icon-soccer",
+                    "tempo_ocorrencia": "21'",
+                    "detalhes": [
+                        {
+                            "jogador_gol": "Felipe Vizeu"
+                        }
+                    ]
+                },
+                {
+                    "ocorrencia": "card-ico yellowCard-ico",
+                    "tempo_ocorrencia": "40'",
+                    "detalhes": [
+                        {
+                            "jogador_infrator": "Newton",
+                            "cartão": "yellowCard-ico"
+                        }
+                    ]
+                },
+                {
+                    "ocorrencia": "substitution ",
+                    "tempo_ocorrencia": "68'",
+                    "detalhes": [
+                        {
+                            "jogador_in": "Arthur",
+                            "jogador_out": "Felipe Vizeu"
+                        }
+                    ]
+                },
+                {
+                    "ocorrencia": "substitution ",
+                    "tempo_ocorrencia": "68'",
+                    "detalhes": [
+                        {
+                            "jogador_in": "Jonathan",
+                            "jogador_out": "Claudinho"
+                        }
+                    ]
+                },
+                {
+                    "ocorrencia": "substitution ",
+                    "tempo_ocorrencia": "81'",
+                    "detalhes": [
+                        {
+                            "jogador_in": "Fellipe Mateus",
+                            "jogador_out": "Bolasie Y."
+                        }
+                    ]
+                },
+                {
+                    "ocorrencia": "substitution ",
+                    "tempo_ocorrencia": "81'",
+                    "detalhes": [
+                        {
+                            "jogador_in": "Ronald",
+                            "jogador_out": "Newton"
+                        }
+                    ]
+                },
+                {
+                    "ocorrencia": "card-ico yellowCard-ico",
+                    "tempo_ocorrencia": "90'",
+                    "detalhes": [
+                        {
+                            "jogador_infrator": "Jonathan",
+                            "cartão": "yellowCard-ico"
+                        }
+                    ]
+                },
+                {
+                    "ocorrencia": "substitution ",
+                    "tempo_ocorrencia": "90+1'",
+                    "detalhes": [
+                        {
+                            "jogador_in": "Serginho",
+                            "jogador_out": "Matheusinho"
+                        }
+                    ]
+                }
+            ],
+            "ocorrencias_time_fora": [
+                {
+                    "ocorrencia": "substitution ",
+                    "tempo_ocorrencia": "64'",
+                    "detalhes": [
+                        {
+                            "jogador_in": "Ferreira",
+                            "jogador_out": "Erick"
+                        }
+                    ]
+                },
+                {
+                    "ocorrencia": "substitution ",
+                    "tempo_ocorrencia": "65'",
+                    "detalhes": [
+                        {
+                            "jogador_in": "Liziero",
+                            "jogador_out": "Lewis J."
+                        }
+                    ]
+                },
+                {
+                    "ocorrencia": "substitution ",
+                    "tempo_ocorrencia": "77'",
+                    "detalhes": [
+                        {
+                            "jogador_in": "André Silva",
+                            "jogador_out": "Marcos Antônio"
+                        }
+                    ]
+                },
+                {
+                    "ocorrencia": "substitution ",
+                    "tempo_ocorrencia": "84'",
+                    "detalhes": [
+                        {
+                            "jogador_in": "Sabino",
+                            "jogador_out": "Alan Franco"
+                        }
+                    ]
+                },
+                {
+                    "ocorrencia": "substitution ",
+                    "tempo_ocorrencia": "84'",
+                    "detalhes": [
+                        {
+                            "jogador_in": "Wellington Rato",
+                            "jogador_out": "Lucas Moura"
+                        }
+                    ]
+                },
+                {
+                    "ocorrencia": "wcl-icon-soccer",
+                    "tempo_ocorrencia": "88'",
+                    "detalhes": [
+                        {
+                            "jogador_gol": "Liziero"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]
