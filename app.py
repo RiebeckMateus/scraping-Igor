@@ -95,7 +95,7 @@ class FlashScore(scrapy.Spider):
         detalhe_ocorrencia_casa = []
         
         for i in ocorrencias_casa:
-            tempo_ocorrencia = i.xpath('.//div[@class="smv__timeBox"]')
+            tempo_ocorrencia = i.xpath('.//div[@class="smv__timeBox"]/text()').get()
             
             gol = i.xpath('.//div[@class="smv__incidentIcon"]//svg/@data-testid').get() # gol
             cartao = i.xpath('.//div[@class="smv__incidentIcon"]//svg/@class').get() # cartão
@@ -112,14 +112,16 @@ class FlashScore(scrapy.Spider):
                 detalhe_ocorrencia = {
                     'qual': 'time_casa',
                     'ocorrencia': gol,
-                    'jogador_gol': jogador_gol
+                    'jogador_gol': jogador_gol,
+                    'tempo_ocorrencia': tempo_ocorrencia
                 }
             elif evento == cartao:
                 jogador_infrator = i.xpath('.//a//div/text()').get()
                 detalhe_ocorrencia = {
                     'qual': 'time_casa',
                     'ocorrencia': cartao,
-                    'jogador_infrator': jogador_infrator
+                    'jogador_infrator': jogador_infrator,
+                    'tempo_ocorrencia': tempo_ocorrencia
                 }
             elif evento == substituicao:
                 jogador_in = i.xpath('.//a[contains(@class, "smv__playerName")]/text()').get()
@@ -128,7 +130,8 @@ class FlashScore(scrapy.Spider):
                     'qual': 'time_casa',
                     'ocorrencia': substituicao,
                     'jogador_in': jogador_in,
-                    'jogador_out': jogador_out
+                    'jogador_out': jogador_out,
+                    'tempo_ocorrencia': tempo_ocorrencia
                 }
             
             detalhe_ocorrencia_casa.append(detalhe_ocorrencia)
@@ -138,7 +141,7 @@ class FlashScore(scrapy.Spider):
         detalhe_ocorrencia_fora = []
         
         for i in ocorrencias_fora:
-            tempo_ocorrencia = i.xpath('.//div[@class="smv__timeBox"]')
+            tempo_ocorrencia = i.xpath('.//div[@class="smv__timeBox"]/text()').get()
             
             gol = i.xpath('.//div[@class="smv__incidentIcon"]//svg/@data-testid').get() # gol
             cartao = i.xpath('.//div[@class="smv__incidentIcon"]//svg/@class').get() # cartão
@@ -155,14 +158,16 @@ class FlashScore(scrapy.Spider):
                 detalhe_ocorrencia = {
                     'qual': 'time_fora',
                     'ocorrencia': gol,
-                    'jogador_gol': jogador_gol
+                    'jogador_gol': jogador_gol,
+                    'tempo_ocorrencia': tempo_ocorrencia
                 }
             elif evento == cartao:
                 jogador_infrator = i.xpath('.//a//div/text()').get()
                 detalhe_ocorrencia = {
                     'qual': 'time_fora',
                     'ocorrencia': cartao,
-                    'jogador_infrator': jogador_infrator
+                    'jogador_infrator': jogador_infrator,
+                    'tempo_ocorrencia': tempo_ocorrencia
                 }
             elif evento == substituicao:
                 jogador_in = i.xpath('.//a[contains(@class, "smv__playerName")]/text()').get()
@@ -171,7 +176,8 @@ class FlashScore(scrapy.Spider):
                     'qual': 'time_fora',
                     'ocorrencia': substituicao,
                     'jogador_in': jogador_in,
-                    'jogador_out': jogador_out
+                    'jogador_out': jogador_out,
+                    'tempo_ocorrencia': tempo_ocorrencia
                 }
             
             detalhe_ocorrencia_fora.append(detalhe_ocorrencia)

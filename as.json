@@ -7,115 +7,135 @@
         "ocorrencia_casa": [
             {
                 "qual": "time_casa",
+                "ocorrencia": "wcl-icon-soccer",
                 "jogador_gol": "Rodriguez E.",
-                "ocorrencia": "wcl-icon-soccer"
+                "tempo_ocorrencia": "12'"
             },
             {
                 "qual": "time_casa",
+                "ocorrencia": "wcl-icon-soccer",
                 "jogador_gol": "Payet D.",
-                "ocorrencia": "wcl-icon-soccer"
+                "tempo_ocorrencia": "18'"
             },
             {
                 "qual": "time_casa",
+                "ocorrencia": "wcl-icon-soccer",
                 "jogador_gol": "Payet D.",
-                "ocorrencia": "wcl-icon-soccer"
+                "tempo_ocorrencia": "32'"
             },
             {
                 "qual": "time_casa",
                 "ocorrencia": "card-ico yellowCard-ico",
-                "jogador_infrator": "Galdames P."
+                "jogador_infrator": "Galdames P.",
+                "tempo_ocorrencia": "40'"
             },
             {
                 "qual": "time_casa",
                 "ocorrencia": "card-ico yellowCard-ico",
-                "jogador_infrator": "Maicon"
+                "jogador_infrator": "Maicon",
+                "tempo_ocorrencia": "53'"
             },
             {
                 "qual": "time_casa",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Alex Teixeira",
-                "jogador_out": "Rayan"
+                "jogador_out": "Rayan",
+                "tempo_ocorrencia": "65'"
             },
             {
                 "qual": "time_casa",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Dominguez M.",
-                "jogador_out": "Rodriguez J."
+                "jogador_out": "Rodriguez J.",
+                "tempo_ocorrencia": "65'"
             },
             {
                 "qual": "time_casa",
                 "ocorrencia": "card-ico yellowCard-ico",
-                "jogador_infrator": "Payet D."
+                "jogador_infrator": "Payet D.",
+                "tempo_ocorrencia": "84'"
             },
             {
                 "qual": "time_casa",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Sforza J.",
-                "jogador_out": "Payet D."
+                "jogador_out": "Payet D.",
+                "tempo_ocorrencia": "85'"
             },
             {
                 "qual": "time_casa",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Max",
-                "jogador_out": "Rodriguez E."
+                "jogador_out": "Rodriguez E.",
+                "tempo_ocorrencia": "87'"
             },
             {
                 "qual": "time_casa",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Jair",
-                "jogador_out": "Mateus Carvalho"
+                "jogador_out": "Mateus Carvalho",
+                "tempo_ocorrencia": "90+5'"
             }
         ],
         "ocorrencia_fora": [
             {
                 "qual": "time_fora",
                 "ocorrencia": "card-ico yellowCard-ico",
-                "jogador_infrator": "Gabriel Xavier"
+                "jogador_infrator": "Gabriel Xavier",
+                "tempo_ocorrencia": "24'"
             },
             {
                 "qual": "time_fora",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Ademir",
-                "jogador_out": "Jean Lucas"
+                "jogador_out": "Jean Lucas",
+                "tempo_ocorrencia": "38'"
             },
             {
                 "qual": "time_fora",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Rodriguez L.",
-                "jogador_out": "Everaldo"
+                "jogador_out": "Everaldo",
+                "tempo_ocorrencia": "38'"
             },
             {
                 "qual": "time_fora",
+                "ocorrencia": "wcl-icon-soccer",
                 "jogador_gol": "Rodriguez L.",
-                "ocorrencia": "wcl-icon-soccer"
+                "tempo_ocorrencia": "42'"
             },
             {
                 "qual": "time_fora",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Rafael Ratao",
-                "jogador_out": "Cauly"
+                "jogador_out": "Cauly",
+                "tempo_ocorrencia": "46'"
             },
             {
                 "qual": "time_fora",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Nicolas Acevedo",
-                "jogador_out": "Caio Alexandre"
+                "jogador_out": "Caio Alexandre",
+                "tempo_ocorrencia": "46'"
             },
             {
                 "qual": "time_fora",
                 "ocorrencia": "card-ico yellowCard-ico",
-                "jogador_infrator": "Thaciano"
+                "jogador_infrator": "Thaciano",
+                "tempo_ocorrencia": "51'"
             },
             {
                 "qual": "time_fora",
+                "ocorrencia": "wcl-icon-soccer",
                 "jogador_gol": "Ademir",
-                "ocorrencia": "wcl-icon-soccer"
+                "tempo_ocorrencia": "75'"
             },
             {
                 "qual": "time_fora",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Yago",
-                "jogador_out": "Luciano Juba"
+                "jogador_out": "Luciano Juba",
+                "tempo_ocorrencia": "76'"
             }
         ]
     },
@@ -128,98 +148,115 @@
             {
                 "qual": "time_casa",
                 "ocorrencia": "card-ico yellowCard-ico",
-                "jogador_infrator": "Clayson"
+                "jogador_infrator": "Clayson",
+                "tempo_ocorrencia": "45+3'"
             },
             {
                 "qual": "time_casa",
                 "ocorrencia": "card-ico yellowCard-ico",
-                "jogador_infrator": "Ramon"
+                "jogador_infrator": "Ramon",
+                "tempo_ocorrencia": "48'"
             },
             {
                 "qual": "time_casa",
                 "ocorrencia": "card-ico yellowCard-ico",
-                "jogador_infrator": "Filipe Augusto"
+                "jogador_infrator": "Filipe Augusto",
+                "tempo_ocorrencia": "56'"
             },
             {
                 "qual": "time_casa",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Railan",
-                "jogador_out": "Filipe Augusto"
+                "jogador_out": "Filipe Augusto",
+                "tempo_ocorrencia": "56'"
             },
             {
                 "qual": "time_casa",
                 "ocorrencia": "card-ico yellowCard-ico",
-                "jogador_infrator": "Fernando Sobral"
+                "jogador_infrator": "Fernando Sobral",
+                "tempo_ocorrencia": "64'"
             },
             {
                 "qual": "time_casa",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Denílson",
-                "jogador_out": "Fernando Sobral"
+                "jogador_out": "Fernando Sobral",
+                "tempo_ocorrencia": "71'"
             },
             {
                 "qual": "time_casa",
                 "ocorrencia": "card-ico yellowCard-ico",
-                "jogador_infrator": "Marllon"
+                "jogador_infrator": "Marllon",
+                "tempo_ocorrencia": "84'"
             },
             {
                 "qual": "time_casa",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Max",
-                "jogador_out": "Gustavo Sauer"
+                "jogador_out": "Gustavo Sauer",
+                "tempo_ocorrencia": "89'"
             },
             {
                 "qual": "time_casa",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Eliel",
-                "jogador_out": "Matheus Alexandre"
+                "jogador_out": "Matheus Alexandre",
+                "tempo_ocorrencia": "89'"
             }
         ],
         "ocorrencia_fora": [
             {
                 "qual": "time_fora",
+                "ocorrencia": "wcl-icon-soccer",
                 "jogador_gol": "M. Depay",
-                "ocorrencia": "wcl-icon-soccer"
+                "tempo_ocorrencia": "44'"
             },
             {
                 "qual": "time_fora",
                 "ocorrencia": "card-ico yellowCard-ico",
-                "jogador_infrator": "Igor Coronado"
+                "jogador_infrator": "Igor Coronado",
+                "tempo_ocorrencia": "45+4'"
             },
             {
                 "qual": "time_fora",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Carrillo A.",
-                "jogador_out": "Alex Santana"
+                "jogador_out": "Alex Santana",
+                "tempo_ocorrencia": "61'"
             },
             {
                 "qual": "time_fora",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Charles",
-                "jogador_out": "Breno Bidon"
+                "jogador_out": "Breno Bidon",
+                "tempo_ocorrencia": "61'"
             },
             {
                 "qual": "time_fora",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Ramalho A.",
-                "jogador_out": "Cacá"
+                "jogador_out": "Cacá",
+                "tempo_ocorrencia": "66'"
             },
             {
                 "qual": "time_fora",
                 "ocorrencia": "card-ico yellowCard-ico",
-                "jogador_infrator": "Raniele"
+                "jogador_infrator": "Raniele",
+                "tempo_ocorrencia": "70'"
             },
             {
                 "qual": "time_fora",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Ángel Romero",
-                "jogador_out": "Raniele"
+                "jogador_out": "Raniele",
+                "tempo_ocorrencia": "79'"
             },
             {
                 "qual": "time_fora",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Garro R.",
-                "jogador_out": "Igor Coronado"
+                "jogador_out": "Igor Coronado",
+                "tempo_ocorrencia": "79'"
             }
         ]
     },
@@ -231,48 +268,56 @@
         "ocorrencia_casa": [
             {
                 "qual": "time_casa",
+                "ocorrencia": "wcl-icon-soccer",
                 "jogador_gol": "Felipe Vizeu",
-                "ocorrencia": "wcl-icon-soccer"
+                "tempo_ocorrencia": "23'"
             },
             {
                 "qual": "time_casa",
                 "ocorrencia": "card-ico yellowCard-ico",
-                "jogador_infrator": "Newton"
+                "jogador_infrator": "Newton",
+                "tempo_ocorrencia": "40'"
             },
             {
                 "qual": "time_casa",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Arthur",
-                "jogador_out": "Felipe Vizeu"
+                "jogador_out": "Felipe Vizeu",
+                "tempo_ocorrencia": "68'"
             },
             {
                 "qual": "time_casa",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Jonathan",
-                "jogador_out": "Claudinho"
+                "jogador_out": "Claudinho",
+                "tempo_ocorrencia": "68'"
             },
             {
                 "qual": "time_casa",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Fellipe Mateus",
-                "jogador_out": "Bolasie Y."
+                "jogador_out": "Bolasie Y.",
+                "tempo_ocorrencia": "81'"
             },
             {
                 "qual": "time_casa",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Ronald",
-                "jogador_out": "Newton"
+                "jogador_out": "Newton",
+                "tempo_ocorrencia": "81'"
             },
             {
                 "qual": "time_casa",
                 "ocorrencia": "card-ico yellowCard-ico",
-                "jogador_infrator": "Jonathan"
+                "jogador_infrator": "Jonathan",
+                "tempo_ocorrencia": "90'"
             },
             {
                 "qual": "time_casa",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Serginho",
-                "jogador_out": "Matheusinho"
+                "jogador_out": "Matheusinho",
+                "tempo_ocorrencia": "90+2'"
             }
         ],
         "ocorrencia_fora": [
@@ -280,36 +325,42 @@
                 "qual": "time_fora",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Ferreira",
-                "jogador_out": "Erick"
+                "jogador_out": "Erick",
+                "tempo_ocorrencia": "65'"
             },
             {
                 "qual": "time_fora",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Liziero",
-                "jogador_out": "Lewis J."
+                "jogador_out": "Lewis J.",
+                "tempo_ocorrencia": "65'"
             },
             {
                 "qual": "time_fora",
                 "ocorrencia": "substitution ",
                 "jogador_in": "André Silva",
-                "jogador_out": "Marcos Antônio"
+                "jogador_out": "Marcos Antônio",
+                "tempo_ocorrencia": "77'"
             },
             {
                 "qual": "time_fora",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Sabino",
-                "jogador_out": "Alan Franco"
+                "jogador_out": "Alan Franco",
+                "tempo_ocorrencia": "84'"
             },
             {
                 "qual": "time_fora",
                 "ocorrencia": "substitution ",
                 "jogador_in": "Wellington Rato",
-                "jogador_out": "Lucas Moura"
+                "jogador_out": "Lucas Moura",
+                "tempo_ocorrencia": "84'"
             },
             {
                 "qual": "time_fora",
+                "ocorrencia": "wcl-icon-soccer",
                 "jogador_gol": "Liziero",
-                "ocorrencia": "wcl-icon-soccer"
+                "tempo_ocorrencia": "88'"
             }
         ]
     }

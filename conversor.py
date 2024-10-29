@@ -10,37 +10,33 @@ with open('as.json', 'r', encoding='utf-8') as file:
 linhas = []
 
 for jogo in dados:
-    for jogo_id, jogo_info in jogo.items():
-        time_casa = jogo_info['time_casa']
-        time_fora = jogo_info['time_fora']
+        time_casa = jogo['time_casa']
+        time_fora = jogo['time_fora']
+        _id = jogo['id']
+        link = jogo['link']
         
-        # print(time_casa)
-        
-        for ocorrencia in jogo_info['ocorrencias_time_casa']:
+        for ocorrencia in jogo['ocorrencia_casa']:
             linha = {
-                'jogo': jogo_id,
+                'id': _id,
                 'time': time_casa,
-                'ocorrencia': ocorrencia['ocorrencia'],
-                'tempo_ocorrencia': ocorrencia['tempo_ocorrencia'],
-                'como': 'time da casa',
-                'detalhes': ocorrencia['detalhes']
+                'detalhes': ocorrencia,
+                'link': link
             }
             linhas.append(linha)
         
-        for ocorrencia in jogo_info['ocorrencias_time_fora']:
+        for ocorrencia in jogo['ocorrencia_fora']:
             linha = {
-                'jogo': jogo_id,
-                'time': time_fora,
-                'ocorrencia': ocorrencia['ocorrencia'],
-                'tempo_ocorrencia': ocorrencia['tempo_ocorrencia'],
-                'como': 'time de fora',
-                'detalhes': ocorrencia['detalhes']
+                'id': _id,
+                'time': time_casa,
+                'detalhes': ocorrencia,
+                'link': link
             }
             linhas.append(linha)
+
 
 df = pd.DataFrame(linhas)
 
-detalhes_expandido = df['detalhes'].apply(lambda x: x[0] if x else {})
+detalhes_expandido = pd.json_normalize(df['detalhes'])
 df = pd.concat([df.drop(columns=['detalhes']), detalhes_expandido.apply(pd.Series)], axis=1)
 
 df.to_excel('ocorrencias_jogos.xlsx', index=False)
