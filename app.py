@@ -92,12 +92,89 @@ class FlashScore(scrapy.Spider):
         
         ocorrencias_casa = selector.xpath('//div[contains(@class, "smv__verticalSections")]//div[contains(@class, "smv__participantRow smv__homeParticipant")]//div[@class="smv__incident"]')
         
-        detalhe_ocorrencia = []
+        detalhe_ocorrencia_casa = []
         
         for i in ocorrencias_casa:
-            cartao = i.xpath('.//div[@class="smv__incidentIcon"]//svg/@class').get()
+            tempo_ocorrencia = i.xpath('.//div[@class="smv__timeBox"]')
             
-            detalhe_ocorrencia.append({cartao})
+            gol = i.xpath('.//div[@class="smv__incidentIcon"]//svg/@data-testid').get() # gol
+            cartao = i.xpath('.//div[@class="smv__incidentIcon"]//svg/@class').get() # cartão
+            substituicao = i.xpath('.//div[@class="smv__incidentIconSub"]//svg/@class').get() # substituição
+            
+            # evento = cartao or gol or substituicao
+            
+            evento = (
+                gol or cartao or substituicao
+            )
+            
+            if evento == gol:
+                jogador_gol = i.xpath('.//a//div/text()').get()
+                detalhe_ocorrencia = {
+                    'qual': 'time_casa',
+                    'ocorrencia': gol,
+                    'jogador_gol': jogador_gol
+                }
+            elif evento == cartao:
+                jogador_infrator = i.xpath('.//a//div/text()').get()
+                detalhe_ocorrencia = {
+                    'qual': 'time_casa',
+                    'ocorrencia': cartao,
+                    'jogador_infrator': jogador_infrator
+                }
+            elif evento == substituicao:
+                jogador_in = i.xpath('.//a[contains(@class, "smv__playerName")]/text()').get()
+                jogador_out = i.xpath('.//a[contains(@class, "smv__subDown smv__playerName")]/text()').get()
+                detalhe_ocorrencia = {
+                    'qual': 'time_casa',
+                    'ocorrencia': substituicao,
+                    'jogador_in': jogador_in,
+                    'jogador_out': jogador_out
+                }
+            
+            detalhe_ocorrencia_casa.append(detalhe_ocorrencia)
+            
+        ocorrencias_fora = selector.xpath('//div[contains(@class, "smv__verticalSections")]//div[contains(@class, "smv__participantRow smv__awayParticipant")]//div[@class="smv__incident"]')
+        
+        detalhe_ocorrencia_fora = []
+        
+        for i in ocorrencias_fora:
+            tempo_ocorrencia = i.xpath('.//div[@class="smv__timeBox"]')
+            
+            gol = i.xpath('.//div[@class="smv__incidentIcon"]//svg/@data-testid').get() # gol
+            cartao = i.xpath('.//div[@class="smv__incidentIcon"]//svg/@class').get() # cartão
+            substituicao = i.xpath('.//div[@class="smv__incidentIconSub"]//svg/@class').get() # substituição
+            
+            # evento = cartao or gol or substituicao
+            
+            evento = (
+                gol or cartao or substituicao
+            )
+            
+            if evento == gol:
+                jogador_gol = i.xpath('.//a//div/text()').get()
+                detalhe_ocorrencia = {
+                    'qual': 'time_fora',
+                    'ocorrencia': gol,
+                    'jogador_gol': jogador_gol
+                }
+            elif evento == cartao:
+                jogador_infrator = i.xpath('.//a//div/text()').get()
+                detalhe_ocorrencia = {
+                    'qual': 'time_fora',
+                    'ocorrencia': cartao,
+                    'jogador_infrator': jogador_infrator
+                }
+            elif evento == substituicao:
+                jogador_in = i.xpath('.//a[contains(@class, "smv__playerName")]/text()').get()
+                jogador_out = i.xpath('.//a[contains(@class, "smv__subDown smv__playerName")]/text()').get()
+                detalhe_ocorrencia = {
+                    'qual': 'time_fora',
+                    'ocorrencia': substituicao,
+                    'jogador_in': jogador_in,
+                    'jogador_out': jogador_out
+                }
+            
+            detalhe_ocorrencia_fora.append(detalhe_ocorrencia)
         
         # Retorna os dados extraídos como dicionário
         return {
@@ -105,7 +182,8 @@ class FlashScore(scrapy.Spider):
             'id': id,
             'time_casa': time_casa,
             'time_fora': time_fora,
-            'ocorrencia': detalhe_ocorrencia
+            'ocorrencia_casa': detalhe_ocorrencia_casa,
+            'ocorrencia_fora': detalhe_ocorrencia_fora
         }
         
     def closed(self, reason):

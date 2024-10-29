@@ -1,95 +1,316 @@
 [
     {
+        "link": "https://www.flashscore.com.br/jogo/jyjdGN6b/#/resumo-de-jogo",
+        "id": "28.10.2024 21:00",
+        "time_casa": "Vasco",
+        "time_fora": "Bahia",
+        "ocorrencia_casa": [
+            {
+                "qual": "time_casa",
+                "jogador_gol": "Rodriguez E.",
+                "ocorrencia": "wcl-icon-soccer"
+            },
+            {
+                "qual": "time_casa",
+                "jogador_gol": "Payet D.",
+                "ocorrencia": "wcl-icon-soccer"
+            },
+            {
+                "qual": "time_casa",
+                "jogador_gol": "Payet D.",
+                "ocorrencia": "wcl-icon-soccer"
+            },
+            {
+                "qual": "time_casa",
+                "ocorrencia": "card-ico yellowCard-ico",
+                "jogador_infrator": "Galdames P."
+            },
+            {
+                "qual": "time_casa",
+                "ocorrencia": "card-ico yellowCard-ico",
+                "jogador_infrator": "Maicon"
+            },
+            {
+                "qual": "time_casa",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Alex Teixeira",
+                "jogador_out": "Rayan"
+            },
+            {
+                "qual": "time_casa",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Dominguez M.",
+                "jogador_out": "Rodriguez J."
+            },
+            {
+                "qual": "time_casa",
+                "ocorrencia": "card-ico yellowCard-ico",
+                "jogador_infrator": "Payet D."
+            },
+            {
+                "qual": "time_casa",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Sforza J.",
+                "jogador_out": "Payet D."
+            },
+            {
+                "qual": "time_casa",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Max",
+                "jogador_out": "Rodriguez E."
+            },
+            {
+                "qual": "time_casa",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Jair",
+                "jogador_out": "Mateus Carvalho"
+            }
+        ],
+        "ocorrencia_fora": [
+            {
+                "qual": "time_fora",
+                "ocorrencia": "card-ico yellowCard-ico",
+                "jogador_infrator": "Gabriel Xavier"
+            },
+            {
+                "qual": "time_fora",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Ademir",
+                "jogador_out": "Jean Lucas"
+            },
+            {
+                "qual": "time_fora",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Rodriguez L.",
+                "jogador_out": "Everaldo"
+            },
+            {
+                "qual": "time_fora",
+                "jogador_gol": "Rodriguez L.",
+                "ocorrencia": "wcl-icon-soccer"
+            },
+            {
+                "qual": "time_fora",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Rafael Ratao",
+                "jogador_out": "Cauly"
+            },
+            {
+                "qual": "time_fora",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Nicolas Acevedo",
+                "jogador_out": "Caio Alexandre"
+            },
+            {
+                "qual": "time_fora",
+                "ocorrencia": "card-ico yellowCard-ico",
+                "jogador_infrator": "Thaciano"
+            },
+            {
+                "qual": "time_fora",
+                "jogador_gol": "Ademir",
+                "ocorrencia": "wcl-icon-soccer"
+            },
+            {
+                "qual": "time_fora",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Yago",
+                "jogador_out": "Luciano Juba"
+            }
+        ]
+    },
+    {
+        "link": "https://www.flashscore.com.br/jogo/h0nDCu6N/#/resumo-de-jogo",
+        "id": "28.10.2024 19:00",
+        "time_casa": "Cuiabá",
+        "time_fora": "Corinthians",
+        "ocorrencia_casa": [
+            {
+                "qual": "time_casa",
+                "ocorrencia": "card-ico yellowCard-ico",
+                "jogador_infrator": "Clayson"
+            },
+            {
+                "qual": "time_casa",
+                "ocorrencia": "card-ico yellowCard-ico",
+                "jogador_infrator": "Ramon"
+            },
+            {
+                "qual": "time_casa",
+                "ocorrencia": "card-ico yellowCard-ico",
+                "jogador_infrator": "Filipe Augusto"
+            },
+            {
+                "qual": "time_casa",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Railan",
+                "jogador_out": "Filipe Augusto"
+            },
+            {
+                "qual": "time_casa",
+                "ocorrencia": "card-ico yellowCard-ico",
+                "jogador_infrator": "Fernando Sobral"
+            },
+            {
+                "qual": "time_casa",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Denílson",
+                "jogador_out": "Fernando Sobral"
+            },
+            {
+                "qual": "time_casa",
+                "ocorrencia": "card-ico yellowCard-ico",
+                "jogador_infrator": "Marllon"
+            },
+            {
+                "qual": "time_casa",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Max",
+                "jogador_out": "Gustavo Sauer"
+            },
+            {
+                "qual": "time_casa",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Eliel",
+                "jogador_out": "Matheus Alexandre"
+            }
+        ],
+        "ocorrencia_fora": [
+            {
+                "qual": "time_fora",
+                "jogador_gol": "M. Depay",
+                "ocorrencia": "wcl-icon-soccer"
+            },
+            {
+                "qual": "time_fora",
+                "ocorrencia": "card-ico yellowCard-ico",
+                "jogador_infrator": "Igor Coronado"
+            },
+            {
+                "qual": "time_fora",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Carrillo A.",
+                "jogador_out": "Alex Santana"
+            },
+            {
+                "qual": "time_fora",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Charles",
+                "jogador_out": "Breno Bidon"
+            },
+            {
+                "qual": "time_fora",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Ramalho A.",
+                "jogador_out": "Cacá"
+            },
+            {
+                "qual": "time_fora",
+                "ocorrencia": "card-ico yellowCard-ico",
+                "jogador_infrator": "Raniele"
+            },
+            {
+                "qual": "time_fora",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Ángel Romero",
+                "jogador_out": "Raniele"
+            },
+            {
+                "qual": "time_fora",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Garro R.",
+                "jogador_out": "Igor Coronado"
+            }
+        ]
+    },
+    {
         "link": "https://www.flashscore.com.br/jogo/nNoHBaLT/#/resumo-de-jogo",
         "id": "26.10.2024 21:00",
         "time_casa": "Criciúma",
         "time_fora": "São Paulo",
-        "ocorrencia": [
-            [
-                ""
-            ],
-            [
-                "card-ico yellowCard-ico"
-            ],
-            [
-                null
-            ],
-            [
-                null
-            ],
-            [
-                null
-            ],
-            [
-                null
-            ],
-            [
-                "card-ico yellowCard-ico"
-            ],
-            [
-                null
-            ]
-        ]
-    },
-    {
-        "link": "https://www.flashscore.com.br/jogo/GIcqJPMu/#/resumo-de-jogo",
-        "id": "26.10.2024 19:00",
-        "time_casa": "Atlético-MG",
-        "time_fora": "Internacional",
-        "ocorrencia": [
-            [
-                "card-ico yellowCard-ico"
-            ],
-            [
-                "card-ico yellowCard-ico"
-            ],
-            [
-                ""
-            ],
-            [
-                "card-ico yellowCard-ico"
-            ],
-            [
-                "card-ico yellowCard-ico"
-            ],
-            [
-                "card-ico yellowCard-ico"
-            ],
-            [
-                "card-ico "
-            ],
-            [
-                null
-            ],
-            [
-                null
-            ]
-        ]
-    },
-    {
-        "link": "https://www.flashscore.com.br/jogo/b1g4E1yB/#/resumo-de-jogo",
-        "id": "26.10.2024 19:00",
-        "time_casa": "Red Bull Bragantino",
-        "time_fora": "Botafogo",
-        "ocorrencia": [
-            [
-                "card-ico yellowCard-ico"
-            ],
-            [
-                null
-            ],
-            [
-                null
-            ],
-            [
-                null
-            ],
-            [
-                null
-            ],
-            [
-                null
-            ]
+        "ocorrencia_casa": [
+            {
+                "qual": "time_casa",
+                "jogador_gol": "Felipe Vizeu",
+                "ocorrencia": "wcl-icon-soccer"
+            },
+            {
+                "qual": "time_casa",
+                "ocorrencia": "card-ico yellowCard-ico",
+                "jogador_infrator": "Newton"
+            },
+            {
+                "qual": "time_casa",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Arthur",
+                "jogador_out": "Felipe Vizeu"
+            },
+            {
+                "qual": "time_casa",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Jonathan",
+                "jogador_out": "Claudinho"
+            },
+            {
+                "qual": "time_casa",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Fellipe Mateus",
+                "jogador_out": "Bolasie Y."
+            },
+            {
+                "qual": "time_casa",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Ronald",
+                "jogador_out": "Newton"
+            },
+            {
+                "qual": "time_casa",
+                "ocorrencia": "card-ico yellowCard-ico",
+                "jogador_infrator": "Jonathan"
+            },
+            {
+                "qual": "time_casa",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Serginho",
+                "jogador_out": "Matheusinho"
+            }
+        ],
+        "ocorrencia_fora": [
+            {
+                "qual": "time_fora",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Ferreira",
+                "jogador_out": "Erick"
+            },
+            {
+                "qual": "time_fora",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Liziero",
+                "jogador_out": "Lewis J."
+            },
+            {
+                "qual": "time_fora",
+                "ocorrencia": "substitution ",
+                "jogador_in": "André Silva",
+                "jogador_out": "Marcos Antônio"
+            },
+            {
+                "qual": "time_fora",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Sabino",
+                "jogador_out": "Alan Franco"
+            },
+            {
+                "qual": "time_fora",
+                "ocorrencia": "substitution ",
+                "jogador_in": "Wellington Rato",
+                "jogador_out": "Lucas Moura"
+            },
+            {
+                "qual": "time_fora",
+                "jogador_gol": "Liziero",
+                "ocorrencia": "wcl-icon-soccer"
+            }
         ]
     }
 ]
