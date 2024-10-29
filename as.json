@@ -2,6 +2,8 @@
     {
         "link": "https://www.flashscore.com.br/jogo/jyjdGN6b/#/resumo-de-jogo",
         "id": "28.10.2024 21:00",
+        "rodada": "Brasileirão Betano - Rodada 31",
+        "placar": "3 x 2",
         "time_casa": "Vasco",
         "time_fora": "Bahia",
         "ocorrencia_casa": [
@@ -135,13 +137,15 @@
                 "ocorrencia": "substitution ",
                 "jogador_in": "Yago",
                 "jogador_out": "Luciano Juba",
-                "tempo_ocorrencia": "76'"
+                "tempo_ocorrencia": "77'"
             }
         ]
     },
     {
         "link": "https://www.flashscore.com.br/jogo/h0nDCu6N/#/resumo-de-jogo",
         "id": "28.10.2024 19:00",
+        "rodada": "Brasileirão Betano - Rodada 31",
+        "placar": "0 x 1",
         "time_casa": "Cuiabá",
         "time_fora": "Corinthians",
         "ocorrencia_casa": [
@@ -263,6 +267,8 @@
     {
         "link": "https://www.flashscore.com.br/jogo/nNoHBaLT/#/resumo-de-jogo",
         "id": "26.10.2024 21:00",
+        "rodada": "Brasileirão Betano - Rodada 31",
+        "placar": "1 x 1",
         "time_casa": "Criciúma",
         "time_fora": "São Paulo",
         "ocorrencia_casa": [

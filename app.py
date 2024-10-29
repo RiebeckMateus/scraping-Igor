@@ -89,6 +89,10 @@ class FlashScore(scrapy.Spider):
         id = selector.xpath('//div[@class="duelParticipant__startTime"]//div/text()').get()
         time_casa = selector.xpath('//div[contains(@class, "duelParticipant__home")]//a[contains(@class, "participant__participantName")]/text()').get()
         time_fora = selector.xpath('//div[contains(@class, "duelParticipant__away")]//a[contains(@class, "participant__participantName")]/text()').get()
+        rodada = selector.xpath('//span[@class="tournamentHeader__country"]//a/text()').get()
+        placar_casa = selector.xpath('//div[@class="detailScore__matchInfo"]//span[1]/text()').get()
+        placar_fora = selector.xpath('//div[@class="detailScore__matchInfo"]//span[3]/text()').get()
+        placar = placar_casa + ' x ' + placar_fora
         
         ocorrencias_casa = selector.xpath('//div[contains(@class, "smv__verticalSections")]//div[contains(@class, "smv__participantRow smv__homeParticipant")]//div[@class="smv__incident"]')
         
@@ -186,6 +190,8 @@ class FlashScore(scrapy.Spider):
         return {
             'link': link,
             'id': id,
+            'rodada': rodada,
+            'placar': placar,
             'time_casa': time_casa,
             'time_fora': time_fora,
             'ocorrencia_casa': detalhe_ocorrencia_casa,
