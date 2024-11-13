@@ -7,6 +7,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from scrapy import Selector
 import scrapy
 import time
+import pandas as pd
 
 class FlashScore(scrapy.Spider):
     name = 'flashscore'
@@ -20,10 +21,15 @@ class FlashScore(scrapy.Spider):
         options = webdriver.ChromeOptions()
         self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
         self.link_count = 0  # Contador para os links acessados
+        
+        self.df = pd.read_excel('retorno_link - demonstracao.xlsx')
     
     def start_requests(self):
-        # Inicia a requisição para a página principal
-        yield scrapy.Request('https://www.flashscore.com.br/futebol/brasil/brasileirao-betano/resultados/', callback=self.parse_with_selenium)
+        for index, row in self.df.iterrows():
+            pais = row['pais']
+            liga = row['liga']
+            url = f'https://www.flashscore.com.br/futebol/{pais}/{liga}/resultados/'
+        yield scrapy.Request(url, callback=self.parse_with_selenium)
 
     def parse_with_selenium(self, response):
         # Carrega a página com Selenium
@@ -68,10 +74,10 @@ class FlashScore(scrapy.Spider):
                 
                 yield dados  # Retorna os dados extraídos do link
                 
-                self.link_count += 1  # Incrementa o contador
-                if self.link_count >= 3:  # Limita a 3 links
-                    print("Limite de 3 links alcançado.")
-                    break
+                # self.link_count += 1  # Incrementa o contador
+                # if self.link_count >= 3:  # Limita a 3 links
+                #     print("Limite de 3 links alcançado.")
+                #     break
 
     def acessa_link(self, link):
         # Função dedicada para acessar o link e extrair dados específicos

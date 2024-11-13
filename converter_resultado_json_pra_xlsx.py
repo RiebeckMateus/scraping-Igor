@@ -1,8 +1,12 @@
+# conversor - converte o arquivo json para xlsx
+
 import json
 import pandas as pd
 import openpyxl
 
-with open('as.json', 'r', encoding='utf-8') as file:
+arquivo_resultado = 'resultados.json'
+
+with open(arquivo_resultado, 'r', encoding='utf-8') as file:
     dados = json.load(file)
 
 # print(dados[0])
@@ -50,7 +54,7 @@ df = pd.concat([df.drop(columns=['detalhes']), detalhes_expandido.apply(pd.Serie
 
 df['data'] = df['id'].apply(lambda x: x.split()[0].replace('.', '/'))
 
-df['rodada'] = df['rodada'].apply(lambda x: x.split('Rodada ')[1])
+# df['rodada'] = df['rodada'].apply(lambda x: x.split('Rodada ')[1])
 
 df['temporada'] = df['data'].apply(lambda x: x.split('/')[2])
 
@@ -60,4 +64,4 @@ df['ocorrencia'] = df['ocorrencia'].replace('wcl-icon-soccer', 'Gol')
 
 df = df[['data', 'partida', 'placar', 'rodada', 'temporada', 'time', 'ocorrencia', 'tempo_ocorrencia']]
 
-df.to_excel('ocorrencias_jogos.xlsx', index=False)
+df.to_excel('resultados.xlsx', index=False)
